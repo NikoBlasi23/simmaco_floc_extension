@@ -1,0 +1,18 @@
+.sapMPageEnableScrolling.sapUiScrollDelegate {
+    overflow: visible !important;
+}
+
+.sapUxAPObjectPageScroll,
+.sapUxAPObjectPageScroll>div {
+    height: 100% !important;
+}
+
+.sapUiRespGridBreak.sapUiRespGridSpanXL3.sapUiRespGridSpanL3.sapUiRespGridSpanM3.sapUiRespGridSpanS12.sapUiFormElementLbl,
+.sapUiRespGridSpanXL2.sapUiRespGridSpanL2.sapUiRespGridSpanM2.sapUiRespGridSpanS12 {
+    width: 100%;
+}
+
+div.sapUiRespGridOverflowHidden[class*="sapUiRespGrid"]>div[class*="sapUiRespGridSpan"] {
+    overflow: visible !important;
+    width: 100%;
+}
